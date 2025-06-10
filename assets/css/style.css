@@ -26,8 +26,8 @@
 }
 
 #banner{
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
 }
 
 .texto-banner{
@@ -36,8 +36,7 @@
 }
 
 .caixa-texto{
-    width: 500px;
-    background-color: beige;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +54,44 @@
 .titulo{
     display: flex;
     align-items: center;
+}
+
+#food{
+    color: rgb(206, 46, 46);
+}
+
+#btn-get{
+    width: 100px;
+    /*aumenta a largura*/
+    height: 40px;
+    /*aumentar a altura*/
+    background-color: red;
+    color: #ffffff;
+    border-radius: 20px;
+    /*torna as bordas redondas*/
+    border: none;
+    /*tira as bordas*/  
+}
+
+.titulo-secundario{
+    color: red;
+    font-weight: 500;
+
+}
+.caixatitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    background-color: blue;
+    width: 400px;  
+}
+
+.titulo-primario{
+    font-weight: bolder;
+    font-size: 40px;
+
 }
 
 
