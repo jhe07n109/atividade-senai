@@ -126,3 +126,25 @@
 
 }
 
+.caixa-imagem{
+    text-align: center;
+    margin: 20px;
+  }
+
+.caixa-imagem > img{
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+
+}
+
+.caixa-pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
