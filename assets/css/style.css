@@ -126,25 +126,60 @@
 
 }
 
-.caixa-imagem{
+.pizza-estrutura {
     text-align: center;
-    margin: 20px;
+    padding: 20px;
   }
+  
+  .caixa-pizza {
+    display: flex;
+    justify-content:center;
+    gap: 90px; 
+    flex-wrap: wrap; 
+  }
+  
+  .caixa-imagem {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 80px;
+  }
+  
+  .caixa-imagem img {
+    width: 250px;
+    height:350px;
+    border-radius: 20px;
+  }
+  
 
-.caixa-imagem > img{
-    width: 50%;
-    max-width: 400px;
-    height: auto;
-    display: inline-block;
-
+.titulo2{
+    color: red;
+    font-weight: 500;  
 }
 
-.caixa-pizza{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.texto2{
+    font-weight: bolder;
+    font-size: 40px;
+    width: 450px;
     
 }
+  
+.titulo-sub{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: start;
+
+}
+
+.texto-venda{
+    font-weight: bolder;
+    font-size: 15px;
+}
+ .caixa-valor{
+    color: #ffffff;
+    margin-top: -100px;
+    background-color: aquamarine;
+    height: 100px;
+ }
 
