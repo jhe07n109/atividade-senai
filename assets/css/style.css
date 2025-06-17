@@ -78,6 +78,7 @@
     font-weight: 500;
 
 }
+
 .caixatitulo{
     display: flex;
     justify-content: center;
@@ -92,8 +93,6 @@
 .titulo-primario{
     font-weight: bolder;
     font-size: 40px;
-    
-
 }
 
 .caixa-cards{
@@ -102,9 +101,6 @@
     align-items: center;
     justify-content: space-around;
    width: 100%;
-   
-
-    
 }
 .class-card{
     display: flex;
@@ -121,9 +117,9 @@
     justify-content: center;
     text-align: center;
 }
+
 #imagem1 {
     width: 200px;
-
 }
 
 .pizza-estrutura {
@@ -161,7 +157,6 @@
     font-weight: bolder;
     font-size: 40px;
     width: 450px;
-    
 }
   
 .titulo-sub{
@@ -169,13 +164,13 @@
     flex-direction: column;
    justify-content: center;
    text-align: start;
-
 }
 
 .texto-venda{
     font-weight: bolder;
     font-size: 15px;
 }
+
  .caixa-valor{
     color: #ffffff;
     margin-top: -100px;
@@ -183,3 +178,37 @@
     height: 100px;
  }
 
+
+.titulo-principal{
+    color: black;
+    font-weight: 700;  
+}
+
+ .rodape{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: start;
+    gap: 1;
+    margin-top: 40px;
+ }
+
+ .texto-rodape{
+    margin-top: 25px;
+ }
+
+ .caixa-aviso{
+    width: 250px;
+ }
+
+ #btn-rodape{
+    width: 170px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-weight: 500;
+   
+   
+   
+ }
