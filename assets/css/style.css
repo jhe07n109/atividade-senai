@@ -122,6 +122,7 @@
     width: 200px;
 }
 
+
 .pizza-estrutura {
     text-align: center;
     padding: 20px;
@@ -190,7 +191,8 @@
     flex-direction: row;
     align-items: start;
     gap: 1;
-    margin-top: 40px;
+    margin-top: 200px;
+    
  }
 
  .texto-rodape{
@@ -212,3 +214,43 @@
    
    
  }
+ .caixa-geral{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align:center;
+    justify-content: space-around;
+ }
+
+ .caixa-pimenta{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align:left;
+    width: 400px;  
+    gap: 10px;
+    margin-left: -120px;
+ }
+
+
+ .img-pimentao{
+    width: 650px;
+    height:650px;
+  
+ }
+
+ .pimenta-primaria{
+    color: red;
+    font-weight: 500; 
+ }
+
+ .pimenta-secundaria{
+    font-weight: bolder;
+    font-size: 40px;
+ }
+
+ 
+
+ 
